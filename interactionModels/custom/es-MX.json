@@ -1,0 +1,65 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "slots": [
+            {
+              "name": "Guerra",
+              "type": "LIST_OF_WARS"
+            }
+          ],
+          "name": "ObtenerCuriosidadGuerra",
+          "samples": [
+            "Dime algo sobre {Guerra}"
+          ]
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "synonyms": [
+                  "Primera Guerra"
+                ],
+                "value": "Primera Guerra Mundial"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "Segunda Guerra"
+                ],
+                "value": "Segunda Guerra Mundial"
+              }
+            },
+            {
+              "name": {
+                "value": "Guerra Fría"
+              }
+            }
+          ],
+          "name": "LIST_OF_WARS"
+        }
+      ],
+      "invocationName": "curiosidades sobre las guerras"
+    }
+  }
+}

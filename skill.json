@@ -1,0 +1,53 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:339713181971:function:6dd715ee-0684-412b-8b54-efec41ef352b:Release_0"
+        },
+        "interfaces": [],
+        "locales": {},
+        "regions": {
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:339713181971:function:6dd715ee-0684-412b-8b54-efec41ef352b:Release_0"
+            }
+          },
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:339713181971:function:6dd715ee-0684-412b-8b54-efec41ef352b:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:339713181971:function:6dd715ee-0684-412b-8b54-efec41ef352b:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "publishingInformation": {
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": [],
+      "isAvailableWorldwide": true,
+      "locales": {
+        "en-US": {
+          "description": "Sample Full Description",
+          "examplePhrases": [
+            "Alexa open hello world",
+            "hello",
+            "help"
+          ],
+          "keywords": [],
+          "name": "curiosidades sobre las guerras",
+          "summary": "Sample Short Description"
+        },
+        "es-MX": {
+          "name": "curiosidades sobre las guerras"
+        }
+      },
+      "testingInstructions": "Sample Testing Instructions."
+    }
+  }
+}

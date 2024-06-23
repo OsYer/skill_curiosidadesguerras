@@ -1,0 +1,67 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "slots": [
+            {
+              "name": "War",
+              "type": "LIST_OF_WARS"
+            }
+          ],
+          "name": "GetWarCuriosity",
+          "samples": [
+            "Tell me something about {War}"
+          ]
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "synonyms": [
+                  "WWI",
+                  "First World War"
+                ],
+                "value": "World War I"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "WWII",
+                  "Second World War"
+                ],
+                "value": "World War II"
+              }
+            },
+            {
+              "name": {
+                "value": "Cold War"
+              }
+            }
+          ],
+          "name": "LIST_OF_WARS"
+        }
+      ],
+      "invocationName": "curiosities about wars"
+    }
+  }
+}
